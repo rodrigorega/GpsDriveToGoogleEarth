@@ -60,7 +60,7 @@ def funcion_escribe_kml():
     f.write('        <description>Wifi data</description>\n')
     f.write('        <visibility>1</visibility>\n')
     f.write('        <Icon>\n')
-    f.write('          <href>http://i102.photobucket.com/albums/m100/efremigio/gps/gpsdrivelogo.png</href>\n')
+    f.write('          <href>https://raw.github.com/rodrigorega/GpsDriveToGoogleEarth/master/img/gpsdrivelogo.png</href>\n')
     f.write('        </Icon>\n')
     f.write('        <overlayXY x="0" y="-1" xunits="fraction" yunits="fraction"/>\n')
     f.write('        <screenXY x="0" y="0" xunits="fraction" yunits="fraction"/>\n')
@@ -95,7 +95,7 @@ def funcion_escribe_kml():
         # Draw AP icon
         f.write('<Style>')
         f.write('<IconStyle>')
-        f.write(' <Icon><href>http://photobucket.com/albums/yourusename/gps/%s.png</href></Icon>\n' % tipo_ap)
+        f.write(' <Icon><href>https://raw.github.com/rodrigorega/GpsDriveToGoogleEarth/master/img/%s.png</href></Icon>\n' % tipo_ap)
         f.write('</IconStyle>')
         f.write('</Style>')
         f.write('     <Point><coordinates>%s,%s,45</coordinates></Point>\n' % (lon, lat))
